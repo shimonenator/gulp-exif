@@ -18,8 +18,7 @@
     "main": "./index.js",
     "repository": {
         "type": "git",
-        "git://github.com/Shimonenator/gulp-exif"
+        "url": "git://github.com/Shimonenator/gulp-exif"
     },
     "licence": "MIT"
 }
-
