@@ -1,28 +1,28 @@
 {
-    "name": "gulp-exif",
-    "version": "0.9.0",
-    "description": "Extract EXIF data from photographs",
-    "keywords": [
-        "gulpplugin",
-        "exif",
-        "jpeg",
-        "jpg"
-    ],
-    "homepage": "https://github.com/Shimonenator/gulp-exif",
-    "bugs": "https://github.com/Shimonenator/gulp-exif/issues",
-    "author": {
-        "name": "Shimon Schwartz",
-        "email": "shimonenator@gmail.com",
-        "url": "https://github.com/Shimonenator"
-    },
-    "main": "./index.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/Shimonenator/gulp-exif"
-    },
-	"dependencies": {
-		"exif": "~0.4.0",
-		"through2": "~0.6.1"
-	},
-    "licence": "MIT"
+  "name": "gulp-exif",
+  "version": "0.9.1",
+  "description": "Extract EXIF data from photographs",
+  "keywords": [
+    "gulpplugin",
+    "exif",
+    "jpeg",
+    "jpg"
+  ],
+  "homepage": "https://github.com/Shimonenator/gulp-exif",
+  "bugs": "https://github.com/Shimonenator/gulp-exif/issues",
+  "author": {
+    "name": "Shimon Schwartz",
+    "email": "shimonenator@gmail.com",
+    "url": "https://github.com/Shimonenator"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Shimonenator/gulp-exif"
+  },
+  "dependencies": {
+    "exif": "~0.4.0",
+    "through2": "~0.6.1"
+  },
+  "licence": "MIT"
 }
