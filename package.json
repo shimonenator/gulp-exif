@@ -15,7 +15,7 @@
     "email": "shimonenator@gmail.com",
     "url": "https://github.com/Shimonenator"
   },
-  "main": "./index.js",
+  "main": "./gulp-exif.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/Shimonenator/gulp-exif"
