@@ -7,10 +7,14 @@ var through = require('through2');
 
 module.exports = function () {
 	return through.obj(function (file, encoding, callback) {
-		new ExifImage({image: file.contents}, function (error, exifData) {
-			file.exif = exifData;
+		try {
+			new ExifImage({image: file.contents}, function (error, exifData) {
+				file.exif = exifData;
 
+				callback(error, file);
+			});
+		} catch (error) {
 			callback(error, file);
-		});
+		}
 	});
 };
